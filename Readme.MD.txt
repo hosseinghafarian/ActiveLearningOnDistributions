@@ -1,1 +1,0 @@
-This repository contains my works related to active learning on input and distributional spaces. 

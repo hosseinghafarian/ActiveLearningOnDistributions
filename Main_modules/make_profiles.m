@@ -47,8 +47,8 @@ switch active_profile_id
     case cnstDefs.CV_CLASSIFICATION_ACTIVE
         profile =  set_profile(dataset_list, showOptions);
     case cnstDefs.ACTIVELEARNING
-        profile =  set_profile(dataset_list, showOptions, 'do_cv',false,'do_cl',false,'do_al',true,'trainratio',0.8,...
-                                                          'testratio',0.2,'LOAD_SAVE_SVM_PARAMS'  ,false, 'distributional',distributional );
+        profile =  set_profile(dataset_list, showOptions, 'do_cv',false,'do_cl',false,'do_al',true,'trainratio',0.5,...
+                                                          'testratio',0.5,'LOAD_SAVE_SVM_PARAMS'  ,false, 'distributional',distributional );
     case cnstDefs.ACTIVELEARNING_SMALLDATASET
         profile =  set_profile(dataset_list, showOptions, 'do_cv',false,'do_cl',false,'do_al',true,'trainratio',0.5,...
                                                           'testratio',0.5, 'DSsubsampling_id', 2, 'DSsubsampling_per', 20,'TRadjustsizemethod_id' ,2, 'TRsample_larger_than'  ,40 );

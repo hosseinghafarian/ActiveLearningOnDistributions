@@ -246,14 +246,14 @@ switch(datasetId)
         data.datasetName         = datasetName;
     case cnstDefs.GLASS
         datasetName = 'GLASS_UCI';
-        data_dir    = 'Datasets/glass/';
-        data_dir    = strcat(datasetmain,data_dir);
-        data_file   = strcat(data_dir,'glass.data');
-        [data]      = glassimportfile(data_file);
-        data.class  = data.Y;
-        data.X      = data.X';
-        data.n      = size(data.X,2);
-        data.n_al   = min(data.n,50);
+        data_dir = 'Datasets/glass/';
+        data_dir=strcat(datasetmain,data_dir);
+        data_file=strcat(data_dir,'glass.data');
+        [data] = glassimportfile(data_file);
+        data.class = data.Y;
+        data.X     = data.X';
+        data.n              = size(data.X,2);
+        data.n_al = min(data.n,50);
 
         classOne      = 1;    %classes are 1,2,3,4,5,6,7 
         classMinusOne = 2;
@@ -402,7 +402,7 @@ switch(datasetId)
         data = load_libsvmdataset_general(datasetmain,'\LIBSVM-Binary\w4a\w4a',...
                                           'w4a', 200);
         data.n_al = min(data.n , 50);
-    case cnstDefs.w5a 
+        case cnstDefs.w5a 
         data = load_libsvmdataset_general(datasetmain,'\LIBSVM-Binary\w5a\w5a',...
                                           'w5a', 200);
         data.n_al = min(data.n , 50);

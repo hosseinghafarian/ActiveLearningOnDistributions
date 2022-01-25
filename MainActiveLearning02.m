@@ -48,7 +48,7 @@ f_it = true;
 for datasetId = myprofile.dataset_list
 %      for crisisInd = 1:22
 %          crisisDInd = crisisInd;
-%         try
+         try
             % load dataset
             [data ]                     = load_dataobject(datasetId, myprofile);
             data.dname  = data.datasetName;
@@ -78,10 +78,10 @@ for datasetId = myprofile.dataset_list
                 ACTIVE_LEARNING(active_experiment_sequence, myprofile, al_profile, TrainSamples, TestSamples, learningparams, almethod_list);               
             end
             clear data
-%        catch ME
+        catch ME
             str = sprintf('failure to work with dataset number %d',datasetId);
             disp(str); 
-%        end
+        end
 %      end
 end % dataset     
 fclose(myprofile.logfileID);

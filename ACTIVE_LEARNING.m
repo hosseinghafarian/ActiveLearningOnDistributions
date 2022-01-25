@@ -14,7 +14,7 @@ function ACTIVE_LEARNING(active_experiment_sequence, myprofile, al_profile, Trai
     WMST_appendDataInd  = [];
     batchSize           = al_profile.batch_size;
     maxexp_num          = al_profile.experiment_num;
-    max_query_round_num = min(al_profile.max_query,min(TrainSamples.n_al, TrainSamples.n));
+    max_query_round_num = min(al_profile.max_query,TrainSamples.n_al);
     max_method_num      = numel(almethod_list);
     maxbatchsize        = al_profile.maxbatchsize;
     zeromaxbatchsize    = zeros(maxbatchsize,1);
@@ -33,7 +33,7 @@ function ACTIVE_LEARNING(active_experiment_sequence, myprofile, al_profile, Trai
     TrainSamples.F_to_ind = F_to_ind_row; % which K(i,*) belongs to F_to_ind dist or instance
     cnstDataSet(K, K_o, KA, KA_o, F_to_ind_row, F_to_ind_col, learningparams, al_profile, TrainSamples);
    % Loop to repeat Experiment for computing Average Performance
-    repeatexp  = 1;
+    repeatexp           = 1;
     maxexp_num = 10;
     while repeatexp    <= maxexp_num 
         % Model and Data: Kernel Matrix, lambda ,C  

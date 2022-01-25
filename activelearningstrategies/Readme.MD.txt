@@ -1,1 +1,0 @@
-This folder contains various active learning strategies. Some of these files were just for testing purpose and uploaded here for completeness. Use at your own risk.  

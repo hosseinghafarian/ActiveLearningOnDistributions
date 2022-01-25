@@ -1,5 +1,6 @@
 function setup_paths(mainfolderpath)
 addpath(genpath(mainfolderpath));
+addpath('C:\Program Files\Mosek\8\toolbox\r2014a');
 %     addpath(genpath(strcat(mainfolderpath,'\libsvm-3.21')));  %for libsvm
 %     addpath(genpath(strcat(mainfolderpath,'\AllofModules')));
 %     addpath(genpath(strcat(mainfolderpath,'\AllofModules\function_related')));  %for function .m files
@@ -30,6 +31,7 @@ addpath(genpath(mainfolderpath));
 %     addpath(genpath(strcat(mainfolderpath,'\noise_label_mapping')));                   % selecting a subset of unlabeled instances for sampling
 %     addpath(genpath(strcat(mainfolderpath,'\OptimizationSolves\FASTA')));                   % selecting a subset of unlabeled instances for sampling
 %     addpath(strcat(mainfolderpath,'\nonconvex'));                   % selecting a subset of unlabeled instances for sampling
-    addpath(genpath('E:\Code\Code\Datasets')); 
-    %addpath(genpath('I:\MyPapers971112\Papers\ARL\Datasets')); 
+    addpath(genpath('D:\AL-MAIN\AAAThesis\latex\Papers\ARL\Datasets')); 
+    addpath(genpath('I:\MyPapers971112\Papers\ARL\Datasets')); 
+    addpath(genpath('D:\AL-MAIN\AAAThesis\latex\Papers\ARL\Yalmip\YALMIP-master'))
 end

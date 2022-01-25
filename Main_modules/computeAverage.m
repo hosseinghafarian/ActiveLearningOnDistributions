@@ -1,8 +1,6 @@
 function ACC_PLOT_Data                 = computeAverage(accuracy,exp_num)
 Acc = sum(accuracy,2)/exp_num;
 ACC_PLOT_Data = permute(Acc, [ 3 1 2]);
-Stdcc = std(accuracy, 0, 2) 
-STDCC_PLOT_DATA = permute(Stdcc, [3 1 2]);
 end
 %     ACC_PLOT_Data = zeros(method_num,query_num);
 %     for i=1:method_num
