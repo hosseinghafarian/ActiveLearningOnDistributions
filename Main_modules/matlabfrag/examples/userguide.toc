@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Background}{1}{section.2}
+\contentsline {section}{\numberline {3}Compared to LaPrint}{2}{section.3}
+\contentsline {section}{\numberline {4}Usage}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Within {\sc Matlab}}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Within LaTeX}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Within pdfLaTeX}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Within LyX}{6}{subsection.4.4}
+\contentsline {section}{\numberline {5}Creating figures in {\sc Matlab}}{6}{section.5}
+\contentsline {subsection}{\numberline {5.1}Sizing}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}{\ttfamily Color}}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}{\ttfamily FontSize}}{7}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}{\ttfamily FontAngle}}{8}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}{\ttfamily FontWeight}}{8}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}{\ttfamily FontName}}{9}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}{\ttfamily Interpreter}}{9}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Multi-line text}{10}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Custom tick labels}{10}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Legends}{11}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Tick scaling values}{12}{subsection.5.11}
+\contentsline {section}{\numberline {6}Frequently (occasionally) asked questions}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}How do I compile \ttfamily {epscompress.c}}{12}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Why does the output have three digit numbers all through it?}{13}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Why doesn't the {\sc .tex}\ file have the {\ttfamily includegraphics} statement in it like LaPrint does?}{13}{subsection.6.3}
+\contentsline {section}{\numberline {7}Troubleshooting}{13}{section.7}
+\contentsline {subsection}{\numberline {7.1}I get an error in {\sc Matlab}!}{13}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}I get a warning in {\sc Matlab}!}{14}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}I get the {\ttfamily Unable to interpret TeX string} warning in {\sc Matlab}!}{14}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}My graphic exports from {\sc Matlab}\ fine, but does not compile in LaTeX/pdfLaTeX/LyX!}{15}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}My graphic exports from {\sc Matlab}\ and compiles in LaTeX/\\pdfLaTeX/LyX but doesn't look right!}{16}{subsection.7.5}
+\contentsline {section}{\numberline {8}Advanced usage: a discussion on renderers}{16}{section.8}
+\contentsline {section}{\numberline {9}Advanced usage: a discussion on axis ticks}{18}{section.9}

@@ -1,0 +1,27 @@
+function [f_dual,Mat, RHS] = dual_regwo_objective_split_LHS_RHS(retType, b_E, y_EC, y_EV, y_IC, y_IV, S, Z , v, z_hat, operators, learningparams, optparams)
+global cnstData 
+    A_E           = [operators.A_EC;operators.A_EV];
+    A_I           = [operators.A_IC;operators.A_IV];
+    if retType == 1 % y_E and pcg 
+        y_I           = [y_IC;y_IV];
+        Mat           = cnstData.LHS_E;
+        c_SZ          = S + Z + z_hat.u; % assumed that \mathcal{S}_u = I
+        RHS           = b_E - A_E*(A_I'*y_I + c_SZ);
+    elseif retType == 2 
+        y_I           = [y_IC;y_IV];
+        Mat           = cnstData.CHOL_H_y_E;
+        c_SZ          = S + Z + z_hat.u; % assumed that \mathcal{S}_u = I
+        RHS           = b_E - A_E*(A_I'*y_I + c_SZ);
+    elseif retType == 3 
+        
+    end
+    Aysdp         = operators.A_EC'*y_EC + operators.A_IC'*y_IC + ...
+                    operators.A_EV'*y_EV + operators.A_IV'*y_IV;
+    Bysdp         = operators.B_EV'*y_EV + operators.B_IV'*y_IV;
+    s_I           = [operators.s_IC; operators.s_IV];
+    f_dual        = ( operators.b_EC'*y_EC+ operators.b_EV'*y_EV)...
+                     - 1/2*norm(Aysdp + S + Z + x_0.u)^2 ...
+                     - learningparams.rhox/2*(Bysdp+cnstData.Q*x_0.w_obeta)'*cnstData.KQinv*(Bysdp+cnstData.Q*x_0.w_obeta)...
+                     - 1/2*norm(v + y_I- x_0.st)^2-v'*s_I...
+                     + 1/2*x_norm(x_0,cnstData.Q) + learningparams.lambda_o/(2*learningparams.rhox)*x_0.w_obeta'*cnstData.K*x_0.w_obeta;
+end

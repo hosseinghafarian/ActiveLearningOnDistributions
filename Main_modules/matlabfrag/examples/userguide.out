@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [1][-]{section.3}{Compared to LaPrint}{}% 3
+\BOOKMARK [1][-]{section.4}{Usage}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Within Matlab}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Within LaTeX}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Within pdfLaTeX}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Within LyX}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Creating figures in Matlab}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Sizing}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Color}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.3}{FontSize}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.4}{FontAngle}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.5}{FontWeight}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.6}{FontName}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.7}{Interpreter}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.8}{Multi-line text}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.9}{Custom tick labels}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.10}{Legends}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.11}{Tick scaling values}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Frequently \(occasionally\) asked questions}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{How do I compile epscompress.c}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Why does the output have three digit numbers all through it?}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Why doesn't the .tex file have the includegraphics statement in it like LaPrint does?}{section.6}% 24
+\BOOKMARK [1][-]{section.7}{Troubleshooting}{}% 25
+\BOOKMARK [2][-]{subsection.7.1}{I get an error in Matlab!}{section.7}% 26
+\BOOKMARK [2][-]{subsection.7.2}{I get a warning in Matlab!}{section.7}% 27
+\BOOKMARK [2][-]{subsection.7.3}{I get the Unable to interpret TeX string warning in Matlab!}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.4}{My graphic exports from Matlab fine, but does not compile in LaTeX/pdfLaTeX/LyX!}{section.7}% 29
+\BOOKMARK [2][-]{subsection.7.5}{My graphic exports from Matlab and compiles in LaTeX/pdfLaTeX/LyX but doesn't look right!}{section.7}% 30
+\BOOKMARK [1][-]{section.8}{Advanced usage: a discussion on renderers}{}% 31
+\BOOKMARK [1][-]{section.9}{Advanced usage: a discussion on axis ticks}{}% 32

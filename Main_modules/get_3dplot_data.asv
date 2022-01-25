@@ -1,0 +1,9 @@
+function [acc_ca_cp, noise_acc_ca_cp] = get_3dplot_data(learning_params_list, firstfield, secondfield, AVG_param_results, AVG_param_noiseacc)
+n = numel(learning_params_list);
+for i= 1:n
+    lp = learning_params_list{i};
+    acc_ca_cp(:,
+    
+end
+
+end

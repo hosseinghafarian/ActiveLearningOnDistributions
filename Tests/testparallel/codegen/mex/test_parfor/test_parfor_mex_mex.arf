@@ -1,0 +1,11 @@
+libemlrt.lib
+libcovrt.lib
+libut.lib
+libmwblas.lib
+libmwmathutil.lib
+/export:mexFunction
+/export:emlrtMexFcnProperties
+/export:test_parfor
+/export:test_parfor_initialize
+/export:test_parfor_terminate
+/export:test_parfor_atexit

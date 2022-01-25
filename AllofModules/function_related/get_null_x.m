@@ -1,0 +1,6 @@
+function [x_null] = get_null_x(size_of_st)
+global cnstData
+    [x_null] = x_conv_u(zeros(cnstData.nConic,1),...
+                        zeros(cnstData.n_S   ,1),...
+                        zeros(size_of_st,1)); % this is because here we don't have access to size of st which is based on operators
+end
